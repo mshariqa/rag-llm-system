@@ -1,0 +1,1 @@
+This is a sample document about artificial intelligence. AI is a technology that enables machines to learn from experience and perform human-like tasks. Machine learning and deep learning are subfields of AI.

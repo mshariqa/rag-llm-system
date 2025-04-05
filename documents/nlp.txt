@@ -1,0 +1,1 @@
+Natural Language Processing (NLP) is a field of AI that focuses on the interaction between computers and humans using natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of human languages in a valuable way.
