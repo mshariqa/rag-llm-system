@@ -174,7 +174,7 @@ def main():
         # Initialize the RAG system
         rag_system = RAGSystem()
         
-        if not rag_system.qa_chain:
+        if not rag_system.rag_chain:
             print("Failed to initialize RAG system. Exiting.")
             return
         
@@ -188,8 +188,9 @@ def main():
                 break
             
             try:
-                answer = rag_system.query(question)
-                print(f"\nAnswer: {answer}")
+                # Use the query method with the Model Context Protocol
+                response = rag_system.query(question)
+                print(f"\nAnswer: {response}")
             except Exception as e:
                 print(f"Error: {e}")
     
