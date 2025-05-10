@@ -112,6 +112,21 @@ To run tests and verify the system is working correctly:
 python test_rag.py
 ```
 
+### RAGAS Evaluation
+
+The system includes comprehensive evaluation using RAGAS (Retrieval Augmented Generation Assessment System) metrics. To run the RAGAS evaluation:
+```
+python test_rag_ragas.py
+```
+
+This evaluation measures four key aspects:
+- **Faithfulness**: How factually consistent the answers are with the provided context
+- **Answer Relevancy**: How well the answers address the questions
+- **Context Precision**: The precision of the retrieved context
+- **Context Recall**: Whether important information from ground truth is present in the context
+
+The evaluation results are saved in `ragas_evaluation_results.json` for detailed analysis.
+
 ## How It Works
 
 1. **Document Loading**: The system loads documents from the `documents` directory.
@@ -124,4 +139,4 @@ python test_rag.py
 ## Requirements
 
 - Python 3.7+
-- OpenAI API key 
+- OpenAI API key
