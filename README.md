@@ -114,7 +114,7 @@ python test_rag.py
 
 ### RAGAS Evaluation
 
-The system includes comprehensive evaluation using RAGAS (Retrieval Augmented Generation Assessment System) metrics. To run the RAGAS evaluation:
+The system includes comprehensive evaluation using [RAGAS](https://docs.ragas.io/en/stable/) (Retrieval Augmented Generation Assessment System) metrics. To run the RAGAS evaluation:
 ```
 python test_rag_ragas.py
 ```
